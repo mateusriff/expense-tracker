@@ -28,9 +28,6 @@ export default function NewExpenseForm(props) {
             date:new Date(date)
         }
 
-        console.log(date);
-        console.log(expenseData.date);
-
         props.onSaveData(expenseData);
 
         setTitle("");
